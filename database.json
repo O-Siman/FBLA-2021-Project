@@ -1,0 +1,35 @@
+{
+  "idsAndQuestions": {
+    "0": {
+      "id": "0",
+      "questionText": "Question 1",
+      "answerChoiceIds": ["0", "1", "2"]
+    },
+    "1": {
+      "id": "1",
+      "questionText": "Question 2",
+      "answerChoiceIds": []
+    }
+  },
+
+  "idsAndAnswerChoices": {
+    "0": {
+      "id": "0",
+      "questionId": "0",
+      "answerChoiceText": "Correct answer choice A for Q1",
+      "isCorrect": true
+    },
+    "1": {
+      "id": "1",
+      "questionId": "0",
+      "answerChoiceText": "Incorrect answer choice B for Q1",
+      "isCorrect": false
+    },
+    "2": {
+      "id": "2",
+      "questionId": "0",
+      "answerChoiceText": "Incorrect answer choice C for Q1",
+      "isCorrect": false
+    }
+  }
+}
